@@ -116,7 +116,7 @@ let characters = [
     characterType: "Plant",
     gameVersions: ["PvZ 2"],
     Original: "Chili Bean",
-    Link: "images/ChiliBean.png",
+    Link: "images/ChilliBean.png",
   },
   {
     characterName: "Aloe",
@@ -186,7 +186,7 @@ let characters = [
     characterType: "Zombie",
     gameVersions: ["PvZ", "PvZ 2"],
     Original: "Zomboni",
-    Link: "images/Zomboni.png",
+    Link: "images/Zombini.png",
   },
   {
     characterName: "Buckethead Zombie",
