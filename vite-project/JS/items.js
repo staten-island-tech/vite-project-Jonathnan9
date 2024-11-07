@@ -252,3 +252,5 @@ let characters = [
     Link: "images/Garlic.png",
   },
 ];
+
+export { characters };

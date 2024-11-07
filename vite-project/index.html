@@ -4,10 +4,18 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/variables.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="JS/main.js"></script>
+      <div class="theme-buttons">
+        <button class="theme-button" theme="lightMode">Light Theme</button>
+        <button class="theme-button" theme="darkMode">Dark Theme</button>
+      </div>
+
+      <div class="boxesContainer"></div>
+  <script type="module" src="JS/items.js"></script>
+  <script type="module" src="JS/main.js"></script>
   </body>
 </html>
