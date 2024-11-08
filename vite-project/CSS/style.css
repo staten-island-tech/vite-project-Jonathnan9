@@ -26,6 +26,7 @@ body {
   color: rgb(251, 251, 251);
   box-sizing: border-box;
   align-items: center;
+  gap: 4em
 }
 
 html * {
@@ -49,9 +50,9 @@ html * {
 .boxes {
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
+  margin: 0, auto;
   align-items: center;
-  gap: 2em;
+  gap: 1em;
   flex-wrap: wrap;
 }
 .box {
@@ -60,7 +61,7 @@ html * {
   border-color: var(--secondary);
   margin: 20em auto;
   width: 28%;
-  height: 60vh;
+  height: 38vh;
   padding: 1%;
   min-width: 15em;
   text-align: center;

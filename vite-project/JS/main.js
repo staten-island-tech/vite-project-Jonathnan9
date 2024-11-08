@@ -6,7 +6,7 @@ const DOMSelectors = {
 };
 
 function createCharacterCard(name, type, gameVersions, imageUrl) {
-  const container = document.querySelector(".boxesContainer");
+  const container = document.querySelector(".boxes");
 
   container.insertAdjacentHTML(
     "beforeend",
