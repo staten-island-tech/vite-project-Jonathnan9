@@ -1,0 +1,22 @@
+:root {
+    --primary: #4caf50; 
+    --secondary: #8bc34a; 
+    --accentOne: #ff5722; 
+    --accentTwo: #f44336; 
+    --background: #dce775; 
+    --zombiePurple: #9c27b0; 
+    --sunYellow: #ffeb3b;
+  }
+  
+  .darkMode {
+    --primary: #388e3c;
+    --secondary: #689f38;
+    --accentOne: #e64a19;
+    --accentTwo: #c62828;
+    --background: #afb42b;
+    --zombiePurple: #7b1fa2;
+    --sunYellow: #fbc02d;
+  }
+  
+  
+  
