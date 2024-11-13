@@ -1,24 +1,57 @@
 :root {
-  --primary: #4caf50; 
-  --secondary: #8bc34a; 
-  --accentOne: #ff5722; 
-  --accentTwo: #f44336; 
-  --background: #dce775; 
-  }
-  .lightMode {
-    --primary: #4caf50; 
-    --secondary: #8bc34a; 
-    --accentOne: #ff5722; 
-    --accentTwo: #f44336; 
-    --background: #dce775; 
-  }
-  .darkMode {
-    --primary: #388e3c;
-    --secondary: #689f38;
-    --accentOne: #e64a19;
-    --accentTwo: #c62828;
-    --background: #afb42b;
-  }
-  
-  
-  
+  --primary: #4caf50;
+  --secondary: #8bc34a;
+  --accentOne: #ff5722;
+  --accentTwo: #f44336;
+  --background: #dce775;
+
+  --h1: 3.2rem;
+  --h2: 2rem;
+  --h3: 1.75rem;
+  --h4: 1.5rem;
+  --p: 1.2rem;
+}
+.lightMode {
+  --primary: #4caf50;
+  --secondary: #8bc34a;
+  --accentOne: #ff5722;
+  --accentTwo: #f44336;
+  --background: #99e775;
+}
+.darkMode {
+  --primary: #228027;
+  --secondary: #689f38;
+  --accentOne: #e64a19;
+  --accentTwo: #c62828;
+  --background: #27792b;
+}
+
+h1 {
+  font-size: var(--h1);
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: var(--h2);
+  font-weight: bold;
+  margin-bottom: 0.4em;
+}
+
+h3 {
+  font-size: var(--h3);
+  font-weight: 600;
+  margin-bottom: 0.3em;
+}
+
+h4 {
+  font-size: var(--h4);
+  font-weight: 500;
+  margin-bottom: 0.2em;
+}
+
+p {
+  font-size: var(--p);
+  margin-bottom: 0.2em;
+  line-height: 1.4;
+}
